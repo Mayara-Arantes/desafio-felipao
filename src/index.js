@@ -1,34 +1,31 @@
-let nome = "Mayara";
-let nivel = "platina"
+let nome = "Mayara"
+let nivelXp = 5001
 
-switch (nivel) {
-  case "< 1.000": 
+if (nivelXp < 1000) {
   console.log("Ferro")
-  break;
-  case "1.001 && 2.000": 
+  
+}else if (nivelXp === 1000 && 2000) {
   console.log("Bronze")
-  break;
-  case "2.001 && 5.000": 
+  
+}else if (nivelXp === 2001 && 5000){
   console.log("Prata")
-  break;
-  case "5.001 && 7.000": 
+  
+}else if (nivelXp === 5001 && 7000) {
   console.log("Ouro")
-  break;
-  case "7.001 && 8.000": 
+  
+}else if (nivelXp === 7001 && 8000) {
   console.log("Platina")
-  break;
-  case "8.001 && 9.000": 
+ 
+}else if (nivelXp === 8001 && 9000) {
   console.log("Ascendente")
-  break;
-  case "9.001 && 10.000": 
+  
+}else if (nivelXp === 9001 && 10000) {
   console.log("Imortal")
-  break;
-  case "> 10.000 || 10.001": 
+  
+}else if (nivelXp >= 10001) {
   console.log("Radiante")
-  break;
-  Default:
+  
+}else 
     console.log("Nivel não encontrado")
-
-console.log("O heroi de nome " + nome, "está no nivel: " + nivel);
-
-}
+ 
+console.log("O Heroi de nome " + nome + " está no nivel de " + nivelXp)
